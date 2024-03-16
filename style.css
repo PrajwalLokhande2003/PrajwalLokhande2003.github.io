@@ -1,0 +1,1189 @@
+
+
+body{
+    margin: 0;
+    /* background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUBgz3CVkc1wv_udqz6BjHboWvkzJgUgyvqQ&usqp=CAU"); */
+    background-repeat: no-repeat;
+    /* background-color: rgb(226, 223, 223); */
+    /* background: linear-gradient(104.81deg,#45e8a1 -24.72%,#33d2ff 41.05%,#ddd457 62.78%); */
+    background-size: 100%;
+    /* color: white; */
+    color: black;
+    /* font-family:  "Inter",sans-serif;
+    font-family: "Lexend Deca",sans-serif;
+    font-family: "Poppins",sans-serif; */
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+
+#myposi{
+    position: fixed;
+    margin-top: -200px;
+    z-index: 2;
+}
+#navbar{
+    /* background-color: #ffffff; */
+    background-image: radial-gradient(circle, #ffffff, #f8f2fa, #f8e3f0, #fad5df, #fac7c7);
+    position: fixed;
+    color: black;
+    display: flex;
+    margin-top: -5px;
+    width: 1440px;
+    padding-left: 650px; 
+    overflow: hidden;
+    
+}
+#navbar:nth-child(1){
+    border: 3px solid grey;
+}
+li{
+    list-style: none;
+    padding: 40px;
+    font-size: 20px;
+    color: black;   
+}
+li:hover{
+    background-color: grey;
+    color: white;
+    
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+#navbar a:hover{
+    background-color: grey;
+    color: white; 
+}
+
+#divimg{
+    height: 100px;
+    width: 100px;
+    margin: 5px 0 0 50px;
+    border-radius: 50%;
+    background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 41.05%,#dd5789 62.78%) ;
+    backdrop-filter: brightness(0.5);
+    /* transition: all ,10s; */
+    
+}
+#myimg{
+    clip-path: circle(50% at 50% 50%);
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    /* transition: all , 2s; */
+}
+
+h3{
+   margin-left: 170px; 
+   margin-top: -70px;
+   z-index: 2;
+   color: black;
+   position:relative ;
+}
+#hey_iam{
+    margin: 200px 0 0 200px;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(2, 2, 2);
+    overflow: hidden;
+  /* border-right: .15em solid orange;  */
+  white-space: nowrap; 
+  /* margin: 0 auto;  */
+  animation: 
+    typing1 7s steps(40, end)  infinite,
+    blink-caret1 .75s step-end infinite;
+}
+
+/* @keyframes typing1 {
+    from { width: 0}
+    to { width: 8% ; visibility: visible;}
+  }
+  
+  @keyframes blink-caret1 {
+    from, to { border-color: transparent}
+    50%{right: 0; top: 50px; border-color: orange;}
+  } */
+
+#myName{
+    margin: 70px 0 0 200px;
+    font-weight: 700;
+    max-height: 120px;
+    font-size: 96px;
+    line-height: 120px;
+    background: linear-gradient(104.81deg,#45e850 0.28%,#33d2ff 41.05%,#dd5789 59.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    overflow: hidden;
+    /* visibility: hidden; */
+  /* border-right: .15em solid orange;  */
+  white-space: nowrap; 
+  animation: 
+    typing 8s steps(40, end)  ,
+    blink-caret .75s step-end 10 ;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+/* The typing effect */
+@keyframes typing {
+    from { max-width: 0; }
+    to { max-width: 58% ;}
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent ;  }
+    50% { border-color: orange;}
+  }
+#Myintro {
+    /* max-width: 880px; */
+    margin: 100px 200px 0 200px;
+    height: 100px;
+    font-size: 70px;
+    word-spacing: 20px;
+    /* text-align: justify; */
+    /* line-height: 80px; */
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(180deg, #ff4400 47.28%, #33d2ff 63.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.ab{
+    animation: slide 5s 7s,pused 10s 10s;
+    visibility: hidden;
+    justify-content: center;
+}
+@keyframes slide {
+    from{ margin-left:1000px;margin-right: -200px;}
+    to{margin-right: 200px;margin-left:400px;}
+    100%{visibility: visible;}
+}
+@keyframes pused {
+    from{margin-left:400px;margin-right: 200px;}
+    to{margin-right: 200px;margin-left:-1000px;}
+    100%{visibility: visible;}
+}
+#Aboutme{
+    margin: 200px 0 0 200px;
+}
+.stylingaboutme{
+    font-size: 40px;
+    font-weight: 700;
+    width: 200px;
+    line-height: 50px;
+    animation-name: mystyleresume;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    height: 50px;
+    background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 41.05%,#dd5789 62.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* @keyframes mystyleresume{
+    0%{background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 41.05%,#dd5789 62.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;font-size: 30px;
+    font-weight: 700;
+    width: 0px;
+    line-height: 50px;}
+    25%{background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 41.05%,#dd5789 62.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    line-height: 50px;}
+    50%{background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 41.05%,#dd5789 62.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;font-size: 30px;
+    font-weight: 700;
+    width: 70px;
+    line-height: 50px;}
+    100%{background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 41.05%,#dd5789 62.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;font-size: 30px;
+    font-weight: 700;
+    width: 120px;
+    line-height: 50px;}
+    
+} */
+
+.paraboutme p{
+    width: 750px;
+    margin: 30px 0 0 200px;
+    word-spacing: 15px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 40px;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+   
+    
+}
+.p1{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingp1 10s steps(400, end);
+    animation-play-state: paused;
+}
+#ssection :hover .p1{
+    animation-play-state: running;
+}
+@keyframes typingp1 {
+    from{width: 0;}
+    to{width: 100%;}
+}
+.p2{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingp2 10s steps(400) 6s , showp2 6s;
+    animation-play-state: paused;
+}
+#ssection :hover .p2{
+    animation-play-state: running;
+}
+@keyframes typingp2 {
+    from{width: 0;}
+    to{width: 100%;}
+    1%{opacity: 1;}
+    100%{opacity: 1;}
+}
+@keyframes showp2 {
+    from, to{visibility: hidden;}
+}
+.p3{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingp3 10s steps(400, end) 12s, showp3 12s;
+    animation-play-state: paused;
+}
+#ssection :hover .p3{
+    animation-play-state: running;
+}
+@keyframes typingp3 {
+    from{width: 0;}
+    to{width: 100%;}
+}
+@keyframes showp3 {
+    from, to{visibility: hidden;}
+}
+.p4{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingp4 10s steps(400, end) 18s, showp4 18s;
+    animation-play-state: paused;
+}
+#ssection :hover .p4{
+    animation-play-state: running;
+}
+@keyframes typingp4 {
+    from{width: 0;}
+    to{width: 100%;}
+}
+@keyframes showp4 {
+    from, to{visibility: hidden;}
+}
+.p5{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingp5 10s steps(400, end) 24s, showp5 24s;
+    animation-play-state: paused;
+}
+#ssection :hover .p5{
+    animation-play-state: running;
+}
+@keyframes typingp5 {
+    from{width: 0;}
+    to{width: 100%;}
+}
+@keyframes showp5 {
+    from, to{visibility: hidden;}
+}
+.p6{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingp6 10s steps(400, end) 30s, showp6 30s;
+    animation-play-state: paused;
+}
+#ssection :hover .p6{
+    animation-play-state: running;
+}
+@keyframes typingp6 {
+    from{width: 0;}
+    to{width: 100%;}
+}
+@keyframes showp6 {
+    from, to{visibility: hidden;}
+}
+
+.fristhr{
+    background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 41.05%,#dd5789 62.78%);
+    height: 5px;
+    width: 200px;
+    margin: 0 500px 0 0;
+    border-radius: 10px;
+    
+}
+/* .frontheading{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 20px 0 0 200px;
+} */
+#divforbutton{
+    margin: 50px 0 0 200px;
+}
+.moreaboutme{
+    background:linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 41.05%,#dd5789 62.78%) ;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+#myskill{
+    margin: 200px;
+    font-size: 30px;
+}
+.headingskill{
+    font-size: 40px;
+    font-weight: 700;
+    width: 200px;
+    line-height: 50px;
+    background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 27.05%,#dd5789 48.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.secondhr{
+    width: 100px;
+}
+.imghtml{
+    background: transparent;
+    margin-top: 50px;
+    max-height: 50px;
+    max-width: 50px;
+}
+.headinghtml{
+    color: #000000;
+    margin: 10px 200px 0 0;
+}
+.htmldiv{
+   margin: -30px 0 0 140px;
+   height: 30px;
+   max-width: 500px;
+   background-color: #f1e2e2;
+   border-radius: 20px;
+   text-align: center;
+   
+}
+#proval{
+    width: 0%;
+    height: 30px;
+    background-color:aqua;
+    border-radius: 20px;
+}
+.imgcss{
+    background: transparent;
+    margin-top: 40px;
+    max-height: 40px;
+    max-width: 50px;
+}
+.headingcss{
+    color: #000000;
+    margin: 10px 200px 0 0;
+    /* font-size: 40px; */
+}
+.cssdiv{
+    margin: -30px 0 0 140px;
+   height: 30px;
+   max-width: 500px;
+   background-color: #f1e2e2;
+   border-radius: 20px;
+   text-align: center;
+}
+#cssvalue{
+    width: 0%;
+    height: 30px;
+    background-color:aqua;
+    border-radius: 20px;
+}
+.imgjs{
+    background: transparent;
+    margin-top: 40px;
+    max-height: 40px;
+    max-width: 50px;
+}
+.headingjs{
+    color: #000000;
+    margin: 10px 200px 0 0;
+    /* font-size: 40px; */
+}
+.jsdiv{
+    margin: -30px 0 0 140px;
+   height: 30px;
+   max-width: 500px;
+   background-color: #f1e2e2;
+   border-radius: 20px;
+   text-align: center;
+}
+#jsvalue{
+    width: 0%;
+    height: 30px;
+    background-color:aqua;
+    border-radius: 20px;
+}
+.imgcpluse{
+    background: transparent;
+    margin-top: 40px;
+    max-height: 40px;
+    max-width: 50px;
+}
+.headingcpluse{
+    color: #000000;
+    margin: 10px 200px 0 0;
+    /* font-size: 40px; */
+}
+.cplusediv{
+    margin: -30px 0 0 140px;
+   height: 30px;
+   max-width: 500px;
+   background-color: #f1e2e2;
+   border-radius: 20px;
+   text-align: center;
+}
+#cplusedvalue{
+    width: 0%;
+    height: 30px;
+    background-color:aqua;
+    border-radius: 20px;
+}
+.imgphp{
+    background: transparent;
+    margin-top: 40px;
+    max-height: 40px;
+    max-width: 50px;
+}
+.headingphp{
+    color: #000000;
+    margin: 10px 200px 0 0;
+    /* font-size: 40px; */
+}
+.phpdiv{
+    margin: -30px 0 0 140px;
+   height: 30px;
+   max-width: 500px;
+   background-color: #f1e2e2;
+   border-radius: 20px;
+   text-align: center;
+}
+#phpvalue{
+    width: 0%;
+    height: 30px;
+    background-color:aqua;
+    border-radius: 20px;
+}
+
+
+#Services{
+    margin: 200px;
+    font-size: 30px;
+}
+.servicename{
+    font-size: 40px;
+    font-weight: 700;
+    width: 200px;
+    line-height: 50px;
+    background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 36.05%,#dd5789 74.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.thirdhr{
+    width: 170px;
+}
+#webdevlopment{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 70px 0 0 0;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 21px -2px #ff2f2f, -5px -5px 21px -2px #2f44ff ;
+    color: #ffffff;
+    scale: 1;
+    transition: scale 1s;
+    visibility: visible;
+    
+}
+#webdevlopment:hover{
+    scale: 1.2;
+}
+
+.front-img{
+    height: 300px;
+    width: 250px; 
+    border-radius: 30px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    position:relative;
+    z-index: -1;
+    /* visibility: visible; */
+}
+#front-p{
+    color: black;
+    margin: -5% 0 0 50px;
+    font-size: 20px;
+    visibility: hidden;
+    transition: visibility 1s;
+}
+ .see1:hover.see{
+    visibility: visible;
+}
+
+
+.uidesigner{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    margin: -300px 0 0 400px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 21px -2px #ff2f2f, -5px -5px 21px -2px #2f44ff ;
+    color: #ffffff;
+    transition: scale 1s;
+}
+.uidesigner:hover{
+    scale: 1.2;
+}
+.ui-img{
+    height: 300px;
+    width: 250px; 
+    border-radius: 30px;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+.backend{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    margin: -300px 0 0 800px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 21px -2px #ff2f2f, -5px -5px 21px -2px #2f44ff ;
+    color: #ffffff;
+    /* scale: 1; */
+    transition: scale 1s;
+}
+.backend:hover{
+    scale: 1.2;
+}
+.backend-img{
+    height: 300px;
+    width: 250px; 
+    border-radius: 30px;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+#Contact_Us{
+    margin: 0 0 50px 200px;
+}
+.headingcontact{
+    font-size: 40px;
+    font-weight: 700;
+    width: 300px;
+    line-height: 50px;
+    background: linear-gradient(104.81deg,#45e850 -24.72%,#33d2ff 36.05%,#dd5789 74.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+.forthhr{
+    width: 220px;
+}
+.linkedinlogo{
+    margin: 50px 0 0 0;
+}
+.inkedin{
+    max-height: 50px;
+    max-width: 100px;
+}
+.githublogo{
+    margin: -55px 0 0 100px;
+}
+.github{
+    max-height: 50px;
+    max-width: 100px;
+    background-color: rgb(251, 250, 250);
+    border-radius: 10px;
+}
+
+.instalogo{
+    margin: -55px 0 0 200px;
+}
+.insta{
+    max-height: 50px;
+    max-width: 100px;
+}
+.xlogo{
+    margin: -55px 0 0 300px;
+}
+.xtweet{
+    max-height: 50px;
+    max-width: 100px;
+}
+/* @-ms-viewport{
+    width: device-width;
+  } */
+  #sameli{
+    visibility: hidden;
+  }
+  #sameli1{
+    visibility: hidden;
+  }
+  #sameli2{
+    visibility: hidden;
+  }
+  #sameli3{
+    visibility: hidden;
+  }
+  #sameli4{
+    visibility: hidden;
+  }
+  #sHownew{
+    visibility: hidden;
+  }
+  .designer{
+    font-size: 10px;
+    margin: 0 0 0 0;
+}
+
+  @media screen and (max-width:500px) {
+    #myposi{
+        margin-top: -350px;
+    }
+
+#navbar{
+        padding-left: 380px;
+        padding-top: 146px;
+        width: 250%;
+        position: fixed;
+        overflow: hidden;
+    }
+    li{
+        visibility: hidden;
+    }
+    .H{
+        background-color: #000000;
+        padding: 2px;
+        height: 5px;
+        width: 75px;
+        margin: -50px 0 0 1180px;
+        position: relative;
+        /* display: block; */
+        visibility: visible;
+    }
+    .A{
+        background-color: #000000;
+        padding: 2px;
+        height: 5px;
+        width: 75px;
+        margin: 10px 0 0 1180px;
+        position: relative;
+        /* display: block; */
+        visibility: visible;
+    }
+    .M{
+        background-color: #000000;
+        padding: 2px;
+        height: 5px;
+        width: 75px;
+        margin: 10px 0 0 1180px;
+        position: relative;
+        /* display: block; */
+        visibility: visible;
+        
+    }
+    #sHownow{
+        background: #ebf0f1cf;
+        padding:0 0 0 110px;
+        width: 350px;
+        margin: 0 0 0 1000px;
+        position: relative;
+        border: 2px solid gray;
+        border-radius: 20px;
+        /* display: none; */
+         visibility: hidden; 
+        
+    }
+    #sameli{
+        overflow: visible;
+        margin: 30px 0 0 35px;
+        font-size: 40px;
+        /* visibility: hidden; */
+        display: block;
+       
+    }
+    #sameli a{
+        text-decoration: none;
+        color: #000000;
+    }
+    #sameli1{
+        overflow: visible;
+        margin: 30px 0 0 35px;
+        font-size: 40px;
+        /* visibility: hidden; */
+        display: block;
+       
+    }
+    #sameli1 a{
+        text-decoration: none;
+        color: #000000;
+    }
+    #sameli2{
+        overflow: visible;
+        margin: 30px 0 0 35px;
+        font-size: 40px;
+        /* visibility: hidden; */
+        display: block;
+       
+    }
+    #sameli2 a{
+        text-decoration: none;
+        color: #000000;
+    }
+    #sameli3{
+        overflow: visible;
+        margin: 30px 0 0 35px;
+        font-size: 40px;
+        /* visibility: hidden; */
+        display: block;
+       
+    }
+    #sameli3 a{
+        text-decoration: none;
+        color: #000000;
+    }
+    #sameli4{
+        overflow: visible;
+        margin: 30px 0 0 35px;
+        font-size: 40px;
+        /* visibility: hidden; */
+        display: block;
+       
+    }
+    #sameli4 a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+      #sHownow div{
+        height: 5px;
+        width: 50px;
+        padding: 2px;
+        background-color: #000000;
+      }
+      #line1{
+        margin: 30px 0 0 260px;
+        transform: translate(0, 11px) rotate(-45deg);
+
+      }
+      #line2{
+        margin: -10px 0 0 260px;
+        transform: translate(0, 12px) rotate(45deg);
+      }
+    #divimg{
+        height: 220px;
+        width: 220px;
+    }
+    #myimg{
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+        
+    }
+    h3{
+        font-size: 30px;
+        margin-left: 350px;
+    margin-top: -115px;
+    }
+    #hey_iam{
+        font-size: 70px;
+        margin: 350px 0 0 80px;
+    }
+    #myName{
+        margin: 165px 0 0 80px;
+        font-size: 165px;
+        line-height: 180px;
+        max-height: 180px;
+       width: 380%; 
+       animation: 
+    typing 5s steps(40, end) ;
+        
+    }
+    @keyframes typing {
+        from { max-width: 0; }
+        to { max-width: 380% ;}
+      }
+      #Myintro{
+        width: 250%;
+        margin-top: 140px;
+        font-size: 90px;
+      }
+      #Aboutme{
+        font-size: 100px;
+        margin-top: 300px;
+      }
+
+      .stylingaboutme{
+        /* width: 250%; */
+        width: 580px;
+        font-size: 100px;
+        height: 110px;
+        line-height: 100px;
+      }
+      .fristhr{
+        height: 10px;
+        width: 405px;
+        margin: 10px 500px 0 0;
+    }
+        .ab{
+            animation: slide 5s 7s,pused 10s 10s;
+            visibility: hidden;
+            justify-content: center;
+        }
+        @keyframes slide {
+            from{ margin-left:1000px;margin-right: -200px;}
+            to{margin-right: 200px;margin-left:400px;}
+            100%{visibility: visible;}
+        }
+        @keyframes pused {
+            from{margin-left:400px;margin-right: 200px;}
+            to{margin-right: 200px;margin-left:-1000px;}
+            100%{visibility: visible;}
+        }
+        #Aboutme{
+            width: 250%;
+            
+        }
+        .paraboutme p{
+            width: 150%;
+            margin: 100px 0 0 -140px;
+            font-size: 55px;
+            line-height:60px;
+        }
+        .p1{
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingp1 9s steps(400, end);
+            animation-play-state: paused;
+
+        }
+        #Aboutme :hover .p1{
+            animation-play-state: running;
+            font-size: 55px;
+            line-height:60px;
+        }
+        @keyframes typingp1 {
+            from{width: 0;}
+            to{width: 150%;}
+        }
+        .p2{
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingp2 9s steps(400) 8s , showp2 8s;
+            animation-play-state: paused;
+        }
+        #Aboutme :hover .p2{
+            animation-play-state: running;
+            font-size: 55px;
+            line-height:60px;
+        }
+        @keyframes typingp2 {
+            from{width: 0;}
+            to{width: 150%;}
+            1%{opacity: 1;}
+            100%{opacity: 1;}
+        }
+        @keyframes showp2 {
+            from, to{visibility: hidden;}
+        }
+        .p3{
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingp3 9s steps(400, end) 16s, showp3 16s;
+            animation-play-state: paused;
+        }
+        #Aboutme :hover .p3{
+            animation-play-state: running;
+            font-size: 55px;
+            line-height:60px;
+        }
+        @keyframes typingp3 {
+            from{width: 0;}
+            to{width: 150%;}
+        }
+        @keyframes showp3 {
+            from, to{visibility: hidden;}
+        }
+        .p4{
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingp4 9s steps(400, end) 24s, showp4 24s;
+            animation-play-state: paused;
+        }
+        #Aboutme :hover .p4{
+            animation-play-state: running;
+            font-size: 55px;
+            line-height:60px;
+        }
+        @keyframes typingp4 {
+            from{width: 0;}
+            to{width: 150%;}
+        }
+        @keyframes showp4 {
+            from, to{visibility: hidden;}
+        }
+        .p5{
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingp5 9s steps(400, end) 32s, showp5 32s;
+            animation-play-state: paused;
+        }
+        #Aboutme :hover .p5{
+            animation-play-state: running;
+            font-size: 55px;
+            line-height:60px;
+        }
+        @keyframes typingp5 {
+            from{width: 0;}
+            to{width: 100%;}
+        }
+        @keyframes showp5 {
+            from, to{visibility: hidden;}
+        }
+        .p6{
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingp6 9s steps(400, end) 40s, showp6 40s;
+            animation-play-state: paused;
+        }
+        #Aboutme :hover .p6{
+            animation-play-state: running;
+            font-size: 55px;
+            line-height:60px;
+        }
+        @keyframes typingp6 {
+            from{width: 0;}
+            to{width: 100%;}
+        }
+        @keyframes showp6 {
+            from, to{visibility: hidden;}
+        }
+        .moreaboutme{
+            font-size: 45px;
+            border-radius: 80px;
+            padding: 30px;
+            margin-top: 115px;
+        }
+        #myskill{
+            width: 250%;
+            
+        }
+        .headingskill{
+            width: 250px;
+            font-size: 100px ;
+            line-height: 100px;
+        }
+        .secondhr{
+            height: 10px;
+            width: 235px;
+            margin: 19px 500px 0 0;
+        }
+        .imghtml{
+            width: 250%;
+            margin: 100px 0 0 0;
+            max-height: 200px;
+            max-width: 200px;
+        }
+        .headinghtml{
+            margin: -120px 200px 0 220px;
+            font-size: 60px;
+        }
+        .htmldiv{
+            width: 250%;
+            text-align: end;
+            margin: 70px 0 0 -190px;
+            height: 70px;
+            max-width: 800px;
+            border-radius: 100px;
+        }
+        #proval{
+            height: 70px;
+            border-radius:100px ;
+        }
+        .imgcss{
+            width: 250%;
+            margin: 100px 0 0 30px;
+            max-height: 180px;
+            max-width: 150px;
+        }
+        .headingcss{
+            margin: -120px 200px 0 220px;
+            font-size: 60px;
+        }
+        .cssdiv {
+            width: 250%;
+            text-align: end;
+            margin: 70px 0 0 -190px;
+            height: 70px;
+            max-width: 800px;
+            border-radius: 100px;
+        }
+        #cssvalue{
+            height: 70px;
+            border-radius:100px ;
+        }
+        .imgjs{
+            width: 250%;
+            margin: 100px 0 0 40px;
+            max-height: 150px;
+            max-width: 130px;
+        }
+        .headingjs{
+            margin: -120px 200px 0 220px;
+            font-size: 60px;
+        }
+        .jsdiv {
+            width: 250%;
+            text-align: end;
+            margin: 70px 0 0 -190px;
+            height: 70px;
+            max-width: 800px;
+            border-radius: 100px;
+        }
+        #jsvalue{
+            height: 70px;
+            border-radius:100px ;
+        }
+        .imgcpluse{
+            width: 250%;
+            margin: 100px 0 0 30px;
+            max-height: 180px;
+            max-width: 150px;
+        }
+        .headingcpluse{
+            margin: -120px 200px 0 220px;
+            font-size: 60px;
+        }
+        .cplusediv {
+            width: 250%;
+            text-align: end;
+            margin: 70px 0 0 -190px;
+            height: 70px;
+            max-width: 800px;
+            border-radius: 100px;
+        }
+        #cplusedvalue{
+            height: 70px;
+            border-radius:100px ;
+        }
+        .imgphp{
+            width: 250%;
+            margin: 120px 0 0 30px;
+            max-height: 200px;
+            max-width: 180px;
+        }
+        .headingphp{
+            margin: -95px 200px 0 250px;
+            font-size: 60px;
+        }
+        .phpdiv {
+            width: 250%;
+            text-align: end;
+            margin: 70px 0 0 -210px;
+            height: 70px;
+            max-width: 800px;
+            border-radius: 100px;
+        }
+        #phpvalue{
+            height: 70px;
+            border-radius:100px ;
+        }
+        #Services{
+            width: 250%;
+        }
+        .servicename{
+            font-size: 100px;
+            width: 410px;
+            line-height: 100px;
+        }
+        #webdevlopment{
+            height:1100px ;
+            width: 1000px;
+            margin: 200px 0 0 0;
+        }
+        .front-img{
+            height: 1100px;
+            width: 1000px;
+        }
+        .uidesigner{
+            height: 1100px;
+            width: 1000px;
+            margin: 200px 0 0 0;
+        }
+        .ui-img{
+            height: 1100px;
+            width: 1000px;
+        }
+        .backend{
+            height: 1100px;
+            width: 1000px;
+            margin: 200px 0 0 0;  
+        }
+        .backend-img{
+            height: 1100px;
+            width: 1000px;
+        }
+        .headingcontact{
+            font-size: 100px;
+            width: 600px;
+            line-height: 100px;
+        }
+        .forthhr{
+            width: 520px;
+        }
+        .inkedin{
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .githublogo{
+            margin: -110px 0 0 200px;
+        }
+        .github{
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .instalogo{
+            margin: -100px 0 0 400px;
+        }
+        .insta{
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .xlogo{
+            margin: -100px 0 0 600px;
+        }
+        .xtweet{
+            max-width: 100px;
+            max-height: 100px;
+        }
+      }
+    
