@@ -106,7 +106,24 @@ function closed(){
               <p class="p6">kinds of fields throughout my projects/work.</p>
             </div>
             <script>
-              
+              var l_d = document.getElementById('l_d')
+              var d_l = document.getElementById('d_l')
+              var hey_iam = document.getElementById('hey_iam')
+              l_d.addEventListener('click',function(){
+                document.body.style.background = 'black'
+                document.body.style.color = 'white'
+                d_l.style.visibility='visible'
+                l_d.style.visibility='hidden'
+                hey_iam.style.color='white'
+                
+              })
+              d_l.addEventListener('click',function(){
+                document.body.style.background = 'white'
+                l_d.style.visibility='visible'
+                d_l.style.visibility='hidden'
+                hey_iam.style.color='black'
+                document.body.style.color = 'black'
+              })
             </script>
             <div id="divforbutton"><button class="moreaboutme">More About Me</button></div>
         </div>
