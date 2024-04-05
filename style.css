@@ -58,7 +58,15 @@ li:hover{
     background-color: grey;
     color: white; 
 }
-
+#d_l{
+    height: 30px;
+    visibility: hidden;
+}
+#l_d{
+    height: 30px;
+    background-image: black;
+    margin-left: -30px;
+}
 #divimg{
     height: 100px;
     width: 100px;
